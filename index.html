@@ -278,63 +278,12 @@
                 <div class="silex-element-content normal" style="margin-left: 20px;">
                     <h2>Contate-nos<br></h2>
                     <span><a href = "mailto: mlasb.2021@gmail.com" style="color: blue">mlasb.2021@gmail.com</a></span></li>
+                    <br>                    
+
                 </div>
             </div>
             <div data-silex-type="html-element" class="editable-style silex-id-1548873044453-5 html-element silex-component silex-component-form silex-use-height-not-minheight silex-element-content-full-height" data-silex-id="silex-id-1548873044453-5" style="">
-
             
-            </div>
-            <div data-silex-type="html-element" class="editable-style silex-id-1548873003503-4 html-element silex-component silex-component-map silex-use-height-not-minheight silex-element-content-full-height" data-silex-id="silex-id-1548873003503-4" style="">
-                <div class="silex-element-content">
-                    <div id="mapdiv_1676466855555_239" class="map">
-                    </div>
-                    <style>#mapdiv_1676466855555_239 {width: 100%; height: 100%;}
-                    </style>
-                    
-                    <script>
-                        function init_1676466855555_239() {
-                            if(typeof(ol) === 'undefined') {
-                                // console.warn('Map not ready, restart later')
-                                // wait for dependencies to be loaded
-                                setTimeout(init_1676466855555_239, 1000);
-                                return;
-                            }
-
-                            // empty the div before adding the map again
-                            $('#mapdiv_1676466855555_239').empty();
-
-                            // apply position and zoom
-                            // from map URL http://www.openstreetmap.org/#map=18/48.88680/2.34235&layers=C
-                            // var params = 'http://www.openstreetmap.org/#map=18/48.87378/2.29489&layers=C'.match(/.*map=([0-9]*)\/(.*)\/(.*)&layers=(.)/);
-                            var params = 'http://www.openstreetmap.org/#map=18/48.87378/2.29489&layers=C'.match(/.*map=([0-9]*)\/(.*)\/(.*)/);
-                            if(params) {
-                                var zoom = parseFloat(params[1]);
-                                var lat = parseFloat(params[2]);
-                                var lon = parseFloat(params[3]);
-                                // var layer = params[4] || 'S';
-                                var center = ol.proj.fromLonLat([lon, lat]);
-                                var map = new ol.Map({
-                                    layers: [
-                                        new ol.layer.Tile({
-                                        source: new ol.source.OSM()
-                                        })
-                                    ],
-                                    target: 'mapdiv_1676466855555_239',
-                                    view: new ol.View({
-                                        center: center,
-                                        zoom: zoom
-                                    })
-                                });                                
-                            }
-                        }
-                        init_1676466855555_239();
-                        // $(document).on('silex.resize', function() {
-                        //     $('#mapdiv_1676466855555_239').empty();
-                        //     init_1676466855555_239();
-                        // });
-                    </script>
-                </div>
-            </div>
         </div>
     </section>
 <!--  ====================================================================================== -->
@@ -474,8 +423,11 @@
                 <div class="silex-element-content normal" style="margin-left: 20px;">
                     <p class="normal">
                         <font  align="justify" size="4">
-                            Nothing here yet... Can't wait to see your content !
-                            </font>
+                            <br>
+                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScN9V7jMzK1-Vajz3GxZBIwCLzhNJIs7XlaVJATgab35UcQ1g/viewform?embedded=true" width="640" height="646" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                                
+                            
+                        </font>
                     </p>
                 </div>
             </div>
